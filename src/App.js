@@ -58,10 +58,6 @@ function App() {
       <Router>
         <div className="d-flex flex-column min-vh-100">
           <Navigation />
-          <nav className="text-center my-3">
-            <Link to="/books" className="mx-2">Livres</Link>
-            <Link to="/reviews" className="mx-2">Avis</Link>
-          </nav>
           <main className="flex-grow-1">
             <Routes>
               {/* Public Routes */}
